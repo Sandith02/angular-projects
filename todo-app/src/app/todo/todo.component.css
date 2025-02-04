@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Gabarito:wght@400..900&display=swap');
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: "Gabarito", serif;
+  }
+  
+  h2 {
+    color: rgb(197, 246, 255);
+  }
+  
+  .input-container {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 15px;
+    border: none;
+  }
+  
+  .add-button {
+    background: rgb(144, 242, 255);
+    color: rgb(0, 87, 124);
+    border: none;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background: #00bfff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    background: #f8f9fa;
+    padding: 10px;
+    margin-top: 5px;
+    align-items: center;
+    padding-left: 25px;
+    border-radius:30px;
+  }
+  
+  .cancel-button {
+    background: none; /* Remove default button background */
+    border: none; /* Remove button border */
+    font-size: 24px; /* Adjust size */
+    color: rgb(0, 155, 175); /* Set icon color */
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 0; /* Remove extra padding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cancel-button:hover {
+    color: rgb(0, 185, 209); /* Darker red on hover */
+  }
+  
+  
+  

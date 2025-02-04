@@ -1,0 +1,123 @@
+@import 'remixicon/fonts/remixicon.css';
+
+/* Global Background */
+body {
+  background-image: url('assets/bg1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  transition: background 1s ease-in-out;
+}
+
+/* Night Mode */
+body.night-mode {
+  background-image: url('assets/bg2.png'); /* Night Mode Background */
+  background-color: #121212;
+  color: white;
+}
+
+/* Night Mode Title */
+.night-mode .title .t1 {
+  color: #c4a2db;
+}
+
+.night-mode .title .t2 {
+  color: #763789;
+}
+
+/* Night Mode Task List */
+.night-mode .container h2{
+    color: rgb(202, 207, 255);
+}
+.night-mode input{
+    background: rgba(248, 248, 248, 0.1); /* Transparent White */
+    backdrop-filter: blur(10px); /* Blur Effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur Effect for Safari */
+    border-radius: 30px; /* Rounded Corners */
+    border: none; /* Subtle Border */
+    color: #ffffff;
+    padding: 15px;
+}
+.night-mode ul li{
+    background: rgba(255, 165, 243, 0.1); /* Transparent White */
+    backdrop-filter: blur(10px); /* Blur Effect */
+    -webkit-backdrop-filter: blur(10px); /* Blur Effect for Safari */
+    border-radius: 30px; /* Rounded Corners */
+    border: none; /* Subtle Border */
+    color: #ffffff;
+}
+.night-mode .input-container .add-button{
+    background: #c4a2db;
+    color: #763789;
+    border: none;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.night-mode .input-container .add-button:hover{
+    background: #efd2ed;
+}
+
+.night-mode ul li .cancel-button {
+    background: none; /* Remove default button background */
+    border: none; /* Remove button border */
+    font-size: 24px; /* Adjust size */
+    color: #c4a2db; /* Set icon color */
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 0; /* Remove extra padding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .night-mode ul li .cancel-button:hover {
+    color: #763789; /* Darker red on hover */
+  }
+
+
+/* Night Mode Footer */
+.night-mode .footer.footer {
+  color: #4f0063;
+}
+
+/* Night Mode Toggle Button */
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.toggle-button:hover {
+  color: #001b41;
+}
+
+/* Night Mode Toggle Button - Dark Mode */
+.night-mode .toggle-button {
+  color: #ffffff;
+}
+
+.night-mode .toggle-button:hover {
+  color: #6a006c;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  font-family: "Gabarito", serif;
+  font-size: 1rem;
+  margin-top: 50px;
+  opacity: 0.8;
+}

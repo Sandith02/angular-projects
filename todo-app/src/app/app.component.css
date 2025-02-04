@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Gabarito:wght@400..900&family=Pacifico&display=swap');
+
+.title{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.t1{
+    font-family: "Pacifico", serif;
+    color: rgb(144, 242, 255);
+    font-weight: 600;
+    font-size: 5rem;
+}
+.t2{
+    font-family: "Gabarito", serif;
+    color: rgb(197, 246, 255);
+    font-weight: 800;
+    font-size: 5rem;
+}
+.footer {
+    text-align: center;
+    padding: 5px;
+    font-family: "Gabarito", serif;
+    color: rgb(0, 123, 140);
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+  }
+  

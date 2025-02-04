@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>Let's Plan Today</h2>
+
+  <!-- Input and Add Button -->
+  <div class="input-container">
+    <input [(ngModel)]="newTodo" placeholder="Enter a task">
+    <button class="add-button" (click)="addTodo()"><i class="ri-add-large-line"></i></button>
+  </div>
+
+  <!-- Task List -->
+  <ul>
+    <li *ngFor="let todo of todos; let i = index">
+      {{ todo }}
+      <button class="cancel-button" (click)="removeTodo(i)">
+        <i class="ri-close-circle-line"></i> <!-- Cancel Icon -->
+      </button>
+    </li>
+  </ul>
+</div>
